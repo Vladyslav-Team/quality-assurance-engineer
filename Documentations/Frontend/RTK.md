@@ -37,16 +37,19 @@ https://github.com/Vladyslav-Team/frontend/blob/main/src/shared/api/services/axi
 How realized axiosBaseQuery
 
 ## How to create instance api Queries and Mutations on exemple AuntificationApi
- **Mutations** 
-	 https://github.com/Vladyslav-Team/frontend/blob/main/src/shared/api/services/authentication.js#L9-L22
-[in `data` is a body in reqwest  ](https://github.com/Vladyslav-Team/frontend/blob/main/src/shared/api/services/authentication.js#L13)		
-	**Queries**
-	https://github.com/Vladyslav-Team/frontend/blob/main/src/shared/api/services/authentication.js#L23-L28
+
+### **Mutations**
+https://github.com/Vladyslav-Team/frontend/blob/main/src/shared/api/services/authentication.js#L9-L22
+
+[`data` is a body in reqwest  ](https://github.com/Vladyslav-Team/frontend/blob/main/src/shared/api/services/authentication.js#L13)		
+
+### **Queries**
+https://github.com/Vladyslav-Team/frontend/blob/main/src/shared/api/services/authentication.js#L23-L28
 	
 		
 
 
-## How to use conect create instance api with store 
+## How to use connect create instance api with store 
 https://github.com/Vladyslav-Team/frontend/blob/main/src/store/index.js
 
 [Add the generated reducer as a specific top-level slice](https://github.com/Vladyslav-Team/frontend/blob/main/src/store/index.js#L18)
@@ -55,13 +58,19 @@ https://github.com/Vladyslav-Team/frontend/blob/main/src/store/index.js
 
 
 ## Use Hooks in Components
-with this need refactor 
- **Mutations** 
+
+
+### **Mutations**
+
 [Triggering `updatePostOne` will affect the result in this component,  
 but not the result in `ComponentTwo`, and vice-versa](https://github.com/Vladyslav-Team/frontend/blob/main/src/components/SigninPopup/SigninPopup.jsx#L13)
+
 https://github.com/Vladyslav-Team/frontend/blob/main/src/components/SigninPopup/SigninPopup.jsx#L28
-**Queries** 
+
+### **Queries**
+
 [Using a query hook automatically fetches data and returns query values](https://github.com/Vladyslav-Team/frontend/blob/main/src/components/pages/Profile/Profile.jsx#L12)
+
 [Cache control](https://github.com/Vladyslav-Team/frontend/blob/main/src/components/pages/Profile/Profile.jsx#L13)
 
 
